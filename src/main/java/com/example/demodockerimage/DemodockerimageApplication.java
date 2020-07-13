@@ -16,6 +16,7 @@ public class DemodockerimageApplication {
     static final class MyController {
         @GetMapping("/docker")
         String hello() {
+
             return "This is docker image srinivases";
         }
 
